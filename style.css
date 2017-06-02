@@ -1,0 +1,159 @@
+/*estilos padroes*/
+
+body{
+	margin: 0;
+	font-family: "Raleway";
+}
+
+*{
+	box-sizing: border-box;
+}
+
+section, main, footer{
+	margin-top: 70px;
+}
+
+.container{
+	width: 1140px;
+	margin: 0 auto;
+}
+
+.linha{
+	display: flex;
+}
+
+.button{
+    border: 1px solid #30c5ff;
+    border-radius: 35px;
+    background-color: #30c5ff;
+    height: 44px;
+    color: white;
+}
+
+.centralizador{
+	text-align: center;
+}
+
+a{
+	text-decoration: none;
+}
+
+ul{
+	list-style: none;
+}
+
+/*fim estilos padroes*/
+
+/*cabecalho*/
+.menuHorizontal ul{
+	margin: 0;
+    margin-top: 10px;
+}
+
+.menuHorizontal a{
+	padding: 0 10px;
+	color: white;
+}
+
+#cabecalho{
+	width: 100%;
+	background-color: #30c5ff;
+	height: 40px;
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	z-index: 10;
+}
+
+#cabecalho h1{
+	margin: 0;
+	color: white;
+}
+.linha.espacoEntre{
+	justify-content: space-between;
+}
+
+
+/*fim cabecalho*/
+
+
+/*banner*/
+#banner{
+	background-image: url("images/esqui.png");
+	background-repeat: no-repeat;
+	height: 100vh;
+	background-size: cover;
+	margin-top: 0;
+}
+
+.titulo{
+	text-transform: uppercase;
+	color: white;
+	font-size: 45px;
+    margin: 0;
+    padding-top: 255px;
+}
+.subtitulo{
+	color: white;
+}
+
+/*fim banner*/
+
+/*pacotes*/
+.card{
+	padding: 10px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.card .textos{
+	text-align: center;
+}
+
+.card img{
+	height: 280px;
+}
+
+.cardContainer.linha{
+    padding-left: 14px;
+}
+
+
+/*fim pacotes*/
+
+
+
+
+/*formulario*/
+
+
+/*fim formulario*/
+
+
+
+/*footer*/
+.container-rodape{
+	display: -webkit-flex;
+	display: flex;
+	width: 100%;
+	background-color: #cdd1d6;
+	height: 70px;
+}	
+
+.item{
+	margin: 15px;
+	flex: 1;
+}
+
+.redessociais{
+	list-style-type: none;
+}
+.redessociais li{
+	display: inline-block;
+}
+
+.rodape{
+	background-color: gray;
+	margin: 0;
+}
